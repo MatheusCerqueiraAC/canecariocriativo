@@ -1,0 +1,101 @@
+header{
+	background-image: url("bg.jpg");
+	height: 200px;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo-header{
+	padding: 5px;
+	margin: 5px;
+	width: 400px;
+}
+
+nav{
+	position: absolute;
+	top: 100px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a{
+	transition: 1s;
+}
+
+nav a:hover{
+	color: #FFD000;
+	font-size: 23px;
+}
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos li{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.img-canecas{
+	transition: 1.5s;
+}
+
+.produtos li:hover .img-canecas{
+	width: 300px;
+}
+
+.produtos li:hover .preco-canecas{
+	color: green;
+}
+
+.produtos h2{
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.preco-canecas{
+	padding: 10px 10px;
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.img-canecas{
+	width: 250px;
+}
+
+footer{
+	text-align: center;
+	background-image: url("bg.jpg");
+	height: 200px;
+	padding: 20px 0;
+}
+
+.logo-footer{
+	padding: 5px;
+	margin: 5px;
+	width: 400px;
+}
